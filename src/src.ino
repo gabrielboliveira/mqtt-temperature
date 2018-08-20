@@ -23,6 +23,7 @@ void setup () {
 
 #if FLASH_BUILTIN_LED
   pinMode(LED_BUILTIN, OUTPUT);
+  digitalWrite(LED_BUILTIN, HIGH);
 #endif
 }
 
